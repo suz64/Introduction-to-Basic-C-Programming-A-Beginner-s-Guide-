@@ -1,0 +1,34 @@
+//WAP to store a data of 10 empolyee id ,name salary using structure variable 
+#include<stdio.h>
+struct empolyee{
+    int id;
+    char name[10];
+    float salary;
+};
+
+ int main() {
+    int i;
+ struct empolyee  e[10];
+printf("Enter the id, name, and salary of empolye:\n");
+for (i=0;i<2;i++)
+
+{
+    printf("Employee %d:\n", i + 1);
+scanf(" %d %s  %f",&e[i].id,e[i].name,&e[i].salary);
+
+
+}
+for (i=0;i<2;i++)
+{
+
+
+printf(" Id:%d\n Name:%s\n Salary:1%f\n",e[i].id,e[i].name,e[i].salary);
+}
+
+
+return 0;
+
+ }
+
+
+
